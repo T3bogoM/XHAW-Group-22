@@ -1,4 +1,4 @@
-
+/* === Global Reset & Basics === */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -412,81 +412,3 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 8px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Navbar styles */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 40px;
-  background-color: #f6f6f6;
-}
-
-.logo-img {
-  width: 60px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-}
-
-.nav-links li a:hover {
-  color: #009879;
-}
-
-/* Hamburger menu (hidden on desktop) */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 4px 0;
-  transition: 0.3s;
-}
-
-/* Responsive styles */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 200px;
-    flex-direction: column;
-    background-color: #f6f6f6;
-    border-radius: 10px;
-    padding: 10px;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .hamburger {
-    display: flex;
-  }
-}
