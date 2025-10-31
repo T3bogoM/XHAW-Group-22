@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Garden Maintenance - Empowering the Nation</title>
@@ -7,36 +7,42 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-    <h2 class="logo">Empowering the Nation</h2>
+  <nav class="navbar">
+    <h2 class="logo">
+      <img src="images/logo.png" alt="Logo" class="logo-img"><br>Empowering the Nation
+    </h2>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="courses.html">Courses</a></li>
+      <li><a href="courses.html" class="active">Courses</a></li>
       <li><a href="discounts.html">Discounts</a></li>
       <li><a href="about.html">About Us</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-    <div class="auth-buttons">
-      <a href="login.html" class="btn">Login</a>
-      <a href="signup.html" class="btn btn-outline">Sign Up</a>
-    </div>
   </nav>
 </header>
 
-<section>
-  <h2>Garden Maintenance</h2>
-  <img src="images/gardenmaintenance.jpg" class="course-img" alt="Garden Maintenance">
-  <p>6-week course – R380</p>
-  <p>Learn pruning, pest control, lawn care, composting, and sustainable garden maintenance techniques.</p>
-</section>
+<section class="course-detail">
+  <h1>🌿 Garden Maintenance (6-Week Short Course)</h1>
+  <p>Gain the skills to maintain gardens and lawns through pruning, composting, and equipment care.</p>
 
-<section class="discount-calculator">
-  <h2>Discount Calculator</h2>
-  <form id="courseForm"> ...checkboxes... </form>
-  <h3>Total Price: R<span id="total">0</span></h3>
+  <div class="image-row">
+    <img src="images/gardenmaintenance1.jpg" alt="Garden Maintenance">
+    <img src="images/gardenmaintenance2.jpg" alt="Lawn Care">
+  </div>
+
+  <h2>Modules Covered</h2>
+  <ul>
+    <li>Lawn Mowing & Edge Trimming</li>
+    <li>Tree & Shrub Pruning</li>
+    <li>Composting & Recycling</li>
+    <li>Tool Use & Safety</li>
+    <li>Garden Clean-Up & Care</li>
+  </ul>
+
+  <p><strong>Duration:</strong> 6 Weeks | <strong>Fee:</strong> R400</p>
+  <a href="register.html" class="btn">Register Now</a>
 </section>
 
 <footer><p>© 2025 Empowering the Nation</p></footer>
-<script src="script.js"></script>
 </body>
 </html>

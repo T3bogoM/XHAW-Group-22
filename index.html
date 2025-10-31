@@ -1,49 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Empowering the Nation</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Empowering the Nation - Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <h2 class="logo">
-        <img src="images/logo.png" alt="Logo" class="logo-img" /><br />
-        Empowering the Nation
-      </h2>
 
-      <!-- Hamburger icon -->
-      <div class="hamburger" onclick="toggleMenu()">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
+<header>
+  <nav class="navbar">
+    <h2 class="logo">Empowering the Nation</h2>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="discounts.html">Discounts</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="auth-buttons">
+      <a href="login.html" class="btn">Login</a>
+      <a href="signup.html" class="btn btn-outline">Sign Up</a>
+    </div>
+  </nav>
+</header>
 
-      <!-- Nav links -->
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="courses.html">Courses</a></li>
-        <li><a href="discounts.html">Discounts</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="login.html">Login</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Welcome to Empowering the Nation</h1>
-    <p>Upskill domestic workers and gardeners with affordable, high-quality training programs.</p>
-    <a href="register.html" class="btn">Register Now</a>
-  </section>
-
-  <footer>
-    <p>© 2025 Empowering the Nation</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section class="hero">
+  <div class="hero-content">
+    <h1>Upskill Today, Empower Tomorrow</h1>
+    <p>Practical training programs for domestic workers and gardeners to unlock better opportunities.</p>
+  </div>
+</section>
